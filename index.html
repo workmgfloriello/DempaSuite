@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Dempa Suite</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400&family=Jost:wght@300;400;500&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="hero">
+    <header>
+      <a class="logo" href="#" aria-label="Dempa Suite"><img src="./assets/logo.png" alt="Dempa Suite"></a>
+      <button class="burger" aria-label="Apri il menu" aria-expanded="false" aria-controls="menu">
+        <span></span><span></span><span></span>
+      </button>
+      <nav id="menu" aria-label="Menu principale">
+        <ul>
+          <li><a href="#stanza">Stanza</a></li>
+          <li><a href="#dove-siamo">Dove siamo</a></li>
+          <li><a href="#contatti">Contatti</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div class="pannello">
+        <p class="eyebrow">Bed &amp; Breakfast</p>
+        <h1>Dempa Suite</h1>
+        <p class="slogan">Il comfort di casa, l’eleganza di una suite</p>
+        <p>Via Amedeo,già Via R. Corte, 5, 70032 Bitonto</p>
+        <p
+          style="font-family:'Jost','Helvetica Neue',Arial,sans-serif; font-size:1.1rem; font-weight:500; letter-spacing:.12em; margin:0 0 1rem; text-align:center;">
+          <a href="tel:+393272351925"
+            style="color:#1c2a36; text-decoration:none; border-bottom:1px solid #a8802f; padding-bottom:2px;">
+            Chiama Ora</a>
+        </p>
+      </div>
+    </main>
+    <a class="scorri" href="#stanza" aria-label="Scorri verso il basso" id="scroll">
+      <svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="1.6"
+        stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+        <path d="M5 9l7 7 7-7" />
+      </svg>
+    </a>
+  </div>
+
+  <!-- Stanza -->
+  <section id="stanza" class="stanza">
+    <div class="contenitore">
+      <div class="sez-titolo reveal">
+        <p class="eyebrow">Gli ambienti</p>
+        <h2>Stanza</h2>
+        <p class="sottotitolo">Scopri gli spazi della suite, tra dettagli in pietra e arredi contemporanei.</p>
+      </div>
+
+      <article class="camera reveal">
+        <figure class="camera-foto">
+          <img src="./assets/bagno.jpeg" alt="Bagno con lavabo, sanitari e doccia in vetro" loading="lazy">
+        </figure>
+        <div class="camera-testo">
+          <h3>Bagno</h3>
+          <p>Un ambiente dai toni neutri, con lavabo d’appoggio su un piano effetto legno, specchio e sanitari sospesi.
+            La doccia è separata da una parete in vetro e rivestita con piastrelle scure.</p>
+        </div>
+      </article>
+
+      <article class="camera inversa reveal">
+        <figure class="camera-foto">
+          <img src="./assets/ingresso.jpeg" alt="Zona cucina e pranzo vista dall’ingresso" loading="lazy">
+        </figure>
+        <div class="camera-testo">
+          <h3>Ingresso</h3>
+          <p>All'ingresso troviamo la cucina con mobili chiari e il frigorifero, incorniciati da pareti in pietra a
+            vista. In primo piano, il tavolo da pranzo con sedie e un centrotavola floreale.</p>
+        </div>
+      </article>
+
+      <article class="camera reveal">
+        <figure class="camera-foto">
+          <img src="./assets/living.jpeg" alt="Zona living con divano blu e parete in pietra" loading="lazy">
+        </figure>
+        <div class="camera-testo">
+          <h3>Living</h3>
+          <p>Il soggiorno è raccolto attorno a un ampio divano blu con chaise longue. La parete in pietra a vista, la
+            nicchia con mensole e il tavolino verde aggiungono carattere all’ambiente.</p>
+        </div>
+      </article>
+
+      <article class="camera inversa reveal">
+        <figure class="camera-foto">
+          <img src="./assets/notte.jpeg" alt="Camera da letto con letto matrimoniale e tende verdi" loading="lazy">
+        </figure>
+        <div class="camera-testo">
+          <h3>Zona notte</h3>
+          <p>Al centro della stanza c’è un letto matrimoniale con testiera imbottita e cuscini blu. La carta da parati a
+            motivi botanici, le tende verdi e la poltroncina coordinata completano la scena.</p>
+        </div>
+      </article>
+
+      <article class="camera reveal">
+        <figure class="camera-foto">
+          <img src="./assets/cottura.jpeg" alt="Piano cottura a induzione e macchina del caffè" loading="lazy">
+        </figure>
+        <div class="camera-testo">
+          <h3>Zona cottura</h3>
+          <p>Nella zona cottura presenta un piano a induzione integrato nel piano di lavoro. Accanto troviamo una
+            macchina del caffè rossa dotata di tazze e, sul lato opposto, calici e bottiglie con il relativo secchiello.
+          </p>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- Dove SIamo -->
+  <section id="dove-siamo" class="dove" data-indirizzo="Via Amedeo,già Via R. Corte, 5, 70032 Bitonto">
+    <div class="dove-contenitore">
+      <div class="dove-titolo reveal">
+        <p class="eyebrow">Come raggiungerci</p>
+        <h2>Dove siamo</h2>
+        <p class="dove-sottotitolo">In una posizione comoda, facile da raggiungere e vicina a tutto.</p>
+      </div>
+
+      <div class="dove-griglia reveal">
+        <div class="dove-info">
+          <div class="dove-indirizzo">
+            <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.5"
+              stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M12 21s7-6.2 7-11.5A7 7 0 0 0 5 9.5C5 14.8 12 21 12 21z" />
+              <circle cx="12" cy="9.5" r="2.5" />
+            </svg>
+            <div>
+              <h3>Indirizzo</h3>
+              <address data-indirizzo-testo>Via del Corso 1, 00186 Roma</address>
+            </div>
+          </div>
+
+          <ul class="dove-dettagli">
+            <li><strong>In auto</strong><span>Parcheggio gratuito a pochi passi dalla struttura.</span></li>
+            <li><strong>In treno</strong><span>A 10 minuti a piedi dalla stazione.</span></li>
+            <li><strong>Check-in</strong><span>Dalle 11:00 alle 20:00. Check-out entro le 11:00.</span></li>
+          </ul>
+
+          <div class="dove-azioni">
+            <a class="btn btn-pieno" href="#" target="_blank" rel="noopener" data-percorso>Indica percorso</a>
+            <button class="btn btn-vuoto" type="button" data-copia>Copia indirizzo</button>
+          </div>
+        </div>
+
+        <div class="dove-mappa">
+          <iframe title="Mappa: dove si trova la struttura"
+            src="https://www.google.com/maps?q=Via+del+Corso+1,+00186+Roma&hl=it&z=16&output=embed" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contatti -->
+
+  <!-- Incolla questo blocco in index.html, dopo la sezione Dove siamo -->
+<!-- Cambia i link di Instagram, Facebook e Booking qui sotto. Numero WhatsApp e messaggio: attributi data- sulla sezione -->
+<section id="contatti" class="contatti" data-whatsapp="393272351925" data-messaggio="Buongiorno, vorrei informazioni sulla disponibilità.">
+  <div class="contatti-contenitore">
+    <div class="contatti-titolo reveal">
+      <p class="eyebrow">Siamo a tua disposizione</p>
+      <h2>Contatti</h2>
+      <p class="contatti-sottotitolo">Scrivici o chiamaci: ti rispondiamo con piacere e organizziamo il tuo soggiorno.</p>
+    </div>
+
+    <div class="contatti-griglia">
+      <a class="contatto reveal" href="tel:+393272351925">
+        <span class="icona"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2z"/></svg></span>
+        <span class="contatto-nome">Telefono</span>
+        <span class="contatto-dettaglio">+39 327 235 1925</span>
+      </a>
+
+      <a class="contatto reveal" href="#" target="_blank" rel="noopener" data-whatsapp-link>
+        <span class="icona"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 21l1.6-4.7A8.5 8.5 0 1 1 8 19.5L3 21z"/><path d="M9 9.5c.5 2 2.5 4 5 5l1.3-1.3-1.8-1-.8.7c-.8-.4-1.7-1.3-2.1-2.1l.7-.8-1-1.8L9 9.5z"/></svg></span>
+        <span class="contatto-nome">WhatsApp</span>
+        <span class="contatto-dettaglio">Scrivici un messaggio</span>
+      </a>
+
+      <a class="contatto reveal" href="https://www.instagram.com/IL_TUO_PROFILO" target="_blank" rel="noopener">
+        <span class="icona"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3.5" y="3.5" width="17" height="17" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r=".6" fill="currentColor"/></svg></span>
+        <span class="contatto-nome">Instagram</span>
+        <span class="contatto-dettaglio">@il_tuo_profilo</span>
+      </a>
+
+      <a class="contatto reveal" href="https://www.facebook.com/LA_TUA_PAGINA" target="_blank" rel="noopener">
+        <span class="icona"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 8.5h2.5V5H14a3.5 3.5 0 0 0-3.5 3.5V11H8v3.5h2.5V21H14v-6.5h2.5L17 11h-3V9.2c0-.4.3-.7.7-.7z"/></svg></span>
+        <span class="contatto-nome">Facebook</span>
+        <span class="contatto-dettaglio">Seguici sulla pagina</span>
+      </a>
+
+      <a class="contatto reveal" href="https://www.booking.com/hotel/it/IL_TUO_ALLOGGIO.it.html" target="_blank" rel="noopener">
+        <span class="icona"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3.5" y="3.5" width="17" height="17" rx="4" fill="none" stroke="currentColor" stroke-width="1.5"/><text x="12" y="16.6" text-anchor="middle" font-family="Georgia,serif" font-size="12" font-weight="700" fill="currentColor">B.</text></svg></span>
+        <span class="contatto-nome">Booking</span>
+        <span class="contatto-dettaglio">Prenota online</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+
+<!-- Incolla questo blocco in index.html, dopo la sezione Contatti (prima dei tag <script>) -->
+<footer class="footer">
+  <div class="footer-contenitore">
+    <div class="footer-colonne">
+      <div class="footer-brand">
+        <img src="./assets/logo.png" alt="Dempa Suite">
+        <p>Bed &amp; Breakfast. Il comfort di casa, l’eleganza di una suite.</p>
+      </div>
+
+      <nav class="footer-nav" aria-label="Menu del footer">
+        <h4>Esplora</h4>
+        <ul>
+          <li><a href="#stanza">Stanza</a></li>
+          <li><a href="#dove-siamo">Dove siamo</a></li>
+          <li><a href="#contatti">Contatti</a></li>
+        </ul>
+      </nav>
+
+      <div class="footer-contatti">
+        <h4>Contatti</h4>
+        <ul>
+          <li><a href="tel:+393272351925">+39 327 235 1925</a></li>
+          <li><a href="https://www.instagram.com/LA_TUA_PAGINA" target="_blank" rel="noopener">Instagram</a></li>
+          <li><a href="https://www.facebook.com/LA_TUA_PAGINA" target="_blank" rel="noopener">Facebook</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-fondo">
+      <p class="footer-copy">© <span data-anno>2026</span> Dempa Suite. Tutti i diritti riservati.<br>
+      <p class="footer-dev">Sito web realizzato da
+        <a href="https://www.google.com/search?q=FlorielloDev" target="_blank" rel="noopener">FlorielloDev</a>
+        <span class="footer-dev-nota">· Trovaci su Google</span>
+      </p>
+    </div>
+  </div>
+
+  <button class="su" type="button" aria-label="Torna in alto" data-su>
+    <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 15l7-7 7 7"/></svg>
+  </button>
+</footer>
+  <script src="script.js"></script>
+</body>
+
+</html>
